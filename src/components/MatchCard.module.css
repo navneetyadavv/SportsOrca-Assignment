@@ -1,0 +1,76 @@
+.matchCard {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.matchCard:hover {
+  transform: translateY(-5px);
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #1a2a57, #3a4a87);
+  color: white;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.teamLogo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.vs {
+  font-weight: bold;
+  margin: 0 15px;
+  color: #ffcc00;
+}
+
+.matchDetails {
+  padding: 15px;
+  background: white;
+}
+
+.league {
+  font-weight: bold;
+  color: #1a2a57;
+  margin-bottom: 8px;
+}
+
+.dateTime {
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.venue {
+  color: #666;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  .teams {
+    flex-direction: column;
+  }
+  
+  .team {
+    margin-bottom: 15px;
+  }
+  
+  .vs {
+    margin: 10px 0;
+  }
+}
