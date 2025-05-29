@@ -84,7 +84,7 @@ function App() {
       </div>
       
       <footer className={styles.footer}>
-        <p>Data provided by <a href="https://www.api-sports.io/" target="_blank">API-Sports.io</a></p>
+        <p>Data provided by <a href="https://api-sports.io/" target="_blank">API-Sports.io</a></p>
       </footer>
     </div>
   );

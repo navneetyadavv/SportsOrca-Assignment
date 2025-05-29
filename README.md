@@ -13,7 +13,7 @@ A React application that displays upcoming basketball matches using data from th
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/basketball-matches-app.git
+   git clone https://github.com/navneetyadavv/SportsOrca-Assignment.git
    
 2. Navigate to the project directory:
    ```bash
